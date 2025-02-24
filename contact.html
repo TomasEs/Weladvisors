@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEL Advisors - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/wel-advisors-logo.png" alt="WEL Advisors Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <main>
+            <section id="contact">
+                <div class="container">
+                    <h2>Contáctenos</h2>
+                    <p>Estamos a su disposición para responder a sus preguntas y ayudarle a encontrar la mejor solución de seguros.</p>
+                    <form name="contact" netlify method="POST" action="/success.html">
+                        <input type="hidden" name="form-name" value="contact">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+     
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+     
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone">
+     
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+     
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </section>
+        </main>    <!-- Contenido Principal de la Página Aquí -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 WEL Advisors. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
