@@ -107,7 +107,7 @@
             <h3>Nuestro Equipo</h3>
             <div class="team">
               <div class="team-member">
-                <img src="https://images.app.goo.gl/uxgA1a92diTviHNt7" alt="Team Member 1">
+                <img src="https://via.placeholder.com/150" alt="Team Member 1">
                 <h4>[Team Member Name]</h4>
                 <p>[Job Title]</p>
                 <p>[Short Bio]</p>
@@ -127,7 +127,7 @@
         <div class="container">
             <h2>Contáctenos</h2>
             <p>Estamos a su disposición para responder a sus preguntas y ayudarle a encontrar la mejor solución de seguros.</p>
-            <form action="https://formspree.io/f/{your-form-id}" method="POST">  <!-- Replace with your Formspree endpoint or similar -->
+            <form name="contact" netlify method="POST" action="/success">  <!-- Replace with your Netifly endpoint or similar -->
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -140,6 +140,7 @@
                 <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
+                <input type="hidden" name="form-name" value="contact">
                 <button type="submit">Enviar Mensaje</button>
             </form>
         </div>
