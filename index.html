@@ -1,109 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEL Advisors - Corredores de Seguros en Chile</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahorra en Seguros</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
 <body>
 
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="wel-advisors-logo.svg" alt="WEL Advisors Logo">  <!-- Replace logo.png with your logo file -->
-            </div>
+        <div class="header-container">
             <nav>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="about.html">Nosotros</a></li>
-                    <li><a href="products.html">Productos</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="#hero">Home</a></li>  <!-- Back to the top (Hero Section) -->
+                <li><a href="#hero">Seguros</a></li> <!-- Not linked in this example -->
+                <li><a href="#inversiones">Inversiones</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact-form">Contacto</a></li>
                 </ul>
             </nav>
+            <div class="logo">
+                <a href="#"><img src="images/wel_logo.svg" alt="Your Logo"></a>
+            </div>
         </div>
     </header>
 
-    <section id="hero">
-        <div class="hero-video">
-            <video autoplay loop muted playsinline>
-                <source src="hero-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="container">
-            <h1>Asesoría Profesional en Seguros para Proteger lo que Más Importa</h1>
-            <p>WEL Advisors es su socio confiable en la búsqueda de la mejor cobertura de seguros en Chile. Ofrecemos soluciones personalizadas para sus necesidades.</p>
-            <a href="#contact" class="cta-button">Obtenga una Cotización Gratuita</a>
-        </div>
-    </section>
-
-    <section id="why-choose-us">
-        <div class="container">
-            <h2>¿Por Qué Elegir WEL Advisors?</h2>
-            <div class="reasons">
-                <div class="reason">
-                    <i class="fas fa-user-shield"></i>
-                    <h3>Asesoría Personalizada</h3>
-                    <p>Entendemos sus necesidades únicas y le ofrecemos soluciones a medida.</p>
-                </div>
-                <div class="reason">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Amplia Experiencia</h3>
-                    <p>Contamos con años de experiencia en el mercado de seguros chileno.</p>
-                </div>
-                <div class="reason">
-                    <i class="fas fa-search"></i>
-                    <h3>Las Mejores Opciones</h3>
-                    <p>Trabajamos con las principales aseguradoras para encontrar la mejor cobertura al mejor precio.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products">
-        <div class="container">
-            <h2>Nuestros Productos de Seguro</h2>
-            <div class="product-list">
-                <div class="product">
-                    <i class="fas fa-car"></i>
-                    <h3>Seguro Automotriz</h3>
-                    <p>Proteja su vehículo con una cobertura completa.</p>
-                </div>
-                <div class="product">
-                    <i class="fas fa-home"></i>
-                    <h3>Seguro de Hogar</h3>
-                    <p>Asegure su hogar y sus bienes contra imprevistos.</p>
-                </div>
-                 <div class="product">
-                    <i class="fas fa-heart"></i>
-                    <h3>Seguro de Salud</h3>
-                    <p>Acceda a la mejor atención médica cuando la necesite.</p>
-                </div>
-                <div class="product">
-                    <i class="fas fa-life-ring"></i>
-                    <h3>Seguro de Vida</h3>
-                    <p>Proteja el futuro de sus seres queridos.</p>
-                </div>
-                <div class="product">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Seguro para Empresas</h3>
-                    <p>Proteja su negocio contra riesgos y responsabilidades.</p>
-                </div>
-            </div>
-            <a href="#" class="cta-button">Ver Todos los Productos</a>
-        </div>
-    </section>
-
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Los ahorros en seguros que tu esperas</h1>
+            <p>Averigua cuanto puedes ahorrar! Contacta con nosotros.</p>
     
-    <footer>
-        <div class="container">
-            <p>© 2023 WEL Advisors. Todos los derechos reservados.</p>
+            <form class="email-form" name="hero-email" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="hero-email">
+                <input type="email" id="hero-email-input" name="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Go</button>
+                <p class="form-success-message" id="hero-email-success">¡Gracias! Tu correo ha sido enviado.</p>
+            </form>
+    
+            <div class="product-boxes">
+                <div class="box">
+                    <i class="fas fa-home fa-3x"></i>  <!-- Hogar (Home) -->
+                    <span>Hogar</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-car fa-3x"></i>   <!-- Automóviles (Cars) -->
+                    <span>Automóviles</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-briefcase fa-3x"></i>  <!-- Negocios (Business) -->
+                    <span>Negocios</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-heartbeat fa-3x"></i>  <!-- Salud (Health) -->
+                    <span>Salud</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-life-ring fa-3x"></i>  <!-- Vida (Life) -->
+                    <span>Vida</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-landmark fa-3x"></i> <!-- Patrimonio (Property/Assets) -->
+                    <span>Patrimonio</span>
+                </div>
+            </div>
         </div>
+        <div class="hero-image">
+            <img src="images/hero-image.jpg" alt="Insurance Illustration">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Acerca de WEL Advisors</h2>
+            <p>WEL Advisors es una corredora de seguros con sede en Chile, dedicada a ofrecer soluciones de seguros integrales y personalizadas para individuos y empresas. Nuestro compromiso es brindar asesoría experta y un servicio excepcional para ayudar a nuestros clientes a proteger lo que más importa.</p>
+    
+            <h3>Nuestro Equipo</h3>
+            <div class="team">
+                <div class="team-member">
+                    <img src="images/tomas_espinosa.jpg" alt="Tomas Espinosa">
+                    <h4>Tomás Espinosa Ossandón</h4>
+                    <p>Gerente General</p>
+                    <p>Ingeneiro Comercial de la PUC y MBA de UCLA. Experto en Inversiones con más de 30 años de experiencia en el mercado.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/daniel_wurmann.jpeg" alt="Daniel Wurmann">
+                    <h4>Daniel Wurmann  Kiblisky</h4>
+                    <p>Ejecutiva de Ventas</p>
+                    <p>Ingeniero Civil de la U. de Chile y MBA de UCLA. Experto en seguros con más de 30 años de experiencia en Chile.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/pedro_leaplaza.jpeg" alt="Pedro Lea-Plaza">
+                    <h4>Pedro Lea Plaza Edwards</h4>
+                    <p>Ejecutiva de Ventas</p>
+                    <p>Abogado de la PUC, experto en la normativa del mercado de seguros.</p>
+                </div><!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="inversiones">
+        <div class="container">
+            <h2>Inversiones</h2>
+            <p>En WEL Advisors, contamos con una vasta experiencia tanto en el mercado chileno como en los mercados internacionales.  Nuestra trayectoria nos permite ofrecer soluciones de inversión sólidas y personalizadas para ayudarte a alcanzar tus objetivos financieros.</p>
+    
+            <div class="inversion-highlights">
+                <div class="highlight">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <h3>Mercado Chileno</h3>
+                    <p>Profundo conocimiento del mercado local, incluyendo renta fija, renta variable y fondos mutuos.</p>
+                </div>
+    
+                <div class="highlight">
+                    <i class="fas fa-globe fa-3x"></i>
+                    <h3>Mercados Internacionales</h3>
+                    <p>Acceso a una amplia gama de oportunidades de inversión en mercados globales, incluyendo acciones, bonos, divisas y commodities.</p>
+                </div>
+    
+                <div class="highlight">
+                    <i class="fas fa-hand-holding-usd fa-3x"></i>
+                    <h3>Asesoría Personalizada</h3>
+                    <p>Desarrollamos estrategias de inversión adaptadas a tus necesidades, perfil de riesgo y horizonte temporal.</p>
+                </div>
+            </div>
+    
+            <p>Nuestro equipo de expertos te guiará en la selección de las mejores alternativas de inversión, brindándote un acompañamiento constante y transparente.  Confía en WEL Advisors para hacer crecer tu patrimonio.</p>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p>Envíanos un mensaje y te responderemos a la brevedad.</p>
+    
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">  <!-- Important for Netlify -->
+    
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="phone">Teléfono (Opcional):</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+    
+                <button type="submit">Enviar Mensaje</button>
+                <p class="form-success-message" id="contact-success">¡Gracias! Tu mensaje ha sido enviado.</p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 WEL Advisors</p>
     </footer>
 
     <script src="script.js"></script>
