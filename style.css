@@ -31,7 +31,7 @@ html {
 }
 
 .logo img {
-    height: 100px;
+    height: 150px;
 }
 
 /* Navigation Styles */
@@ -79,7 +79,7 @@ nav ul li a {
     }
 
     .logo img {
-        height: 40px;
+        height: 60px;
     }
 }
 
@@ -171,7 +171,7 @@ nav ul li a {
 }
 
 #about .container {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
