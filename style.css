@@ -155,7 +155,7 @@ nav ul li a {
 
 .hero-image {
     flex: 1;
-    text-align: right;
+    text-align: center right;
 }
 
 .hero-image img {
